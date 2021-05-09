@@ -221,7 +221,7 @@ public class LinkedListWithIterator<T> implements ListWithIteratorInterface<T>
 
     } // end IteratorForLinkedList
 
-    private class Node
+    public class Node
     {
         private T data; // Entry in list
         private Node next; // Link to next node
