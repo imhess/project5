@@ -1,5 +1,10 @@
 package matrix;
-
+/**
+ * 
+ * @deprecated
+ *
+ * @param <T>
+ */
 public final class LinkedQueue<T> implements QueueInterface<T>
 {
     private Node firstNode; // References node at front of queue

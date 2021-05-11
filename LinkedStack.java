@@ -1,5 +1,10 @@
 package matrix;
-
+/**
+ * 
+ * @deprecated
+ *
+ * @param <T>
+ */
 import java.util.EmptyStackException;
 
 import matrix.LinkedListWithIterator.Node;
