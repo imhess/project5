@@ -1,7 +1,5 @@
 package matrix;
 
-import java.util.ArrayList;
-
 public class GraphDriver {
 
     public static void main(String[] args)
@@ -32,6 +30,11 @@ public class GraphDriver {
     	test.addEdge("H", "I");
     	test.addEdge("I", "F");
     	
-    	Set<String> depthFirstTraversal(test, "A");
+    	
+    	System.out.println(GraphTraversal.depthFirstTraversal(test, "A"));
+    	
+    	System.out.println(GraphTraversal.breadthFirstTraversal(test, "A"));
+    	
+    	test.printGraph();
     }
 }
